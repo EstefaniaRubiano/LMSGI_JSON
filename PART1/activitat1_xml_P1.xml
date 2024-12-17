@@ -1,0 +1,33 @@
+<!--Sistema de gestió de productes per a una botiga online-->
+<!--representar una llista de productes amb la seva info de manera estructurada-->
+
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- llista de productes d'una botiga d'electrònica --> 
+<botiga_electrònica> 
+  <!-- Producte 1: Tablet -->
+  <producte id="TB001" categoria="Electrònica"> 
+    <nom>Tablet Samsung Galaxy Tab A8</nom>
+    <descripcio>Tablet amb pantalla de 8.7 polzades, 64GB d'emmagatzematge i bateria de llarga durada.</descripcio>
+    <preu moneda="EUR">179</preu> 
+    <disponibilitat>En estoc</disponibilitat>
+    <imatge>https://www.elcorteingles.es/electronica/A49810804-tablet-samsung-galaxy-tab-a9-4gb--64-gb-grafito-wi-fi/</imatge>
+  </producte>
+
+  <!-- Producte 2: Mòbil -->
+  <producte id="MB002" categoria="Electrònica">
+    <nom>Mòbil Xiaomi Redmi Note 13</nom>
+    <descripcio>Smartphone amb pantalla AMOLED de 120Hz, 6.67 polzades, càmera de 100MP i càrrega ràpida.</descripcio>
+    <preu moneda="EUR">149</preu>
+    <disponibilitat>En estoc</disponibilitat>
+    <imatge>https://www.mi.com/es/product/redmi-note-13/</imatge>
+  </producte>
+
+  <!-- Producte 3: Auriculars -->
+  <producte id="AU003" categoria="Electrònica">
+    <nom>Auriculars Sony WH-1000XM4</nom>
+    <descripcio>Auriculars d'àudio d'alta resolució tipus diadema amb tecnologia de Noise Cancelling avançada i fins 35h d'autonomia.</descripcio>
+    <preu moneda="EUR">229</preu>
+    <disponibilitat>En estoc</disponibilitat>
+    <imatge>https://www.sony.es/store/product/wh1000xm4s.ce7/Auriculares-inal%C3%A1mbricos-con-Noise-Cancelling-WH-1000XM4</imatge>
+  </producte>
+</botiga_electrònica> 
